@@ -1,4 +1,4 @@
 <?php
 
 const URL = "http://localhost/Sign-in-User/";
-const URL_CSS = URL."app/public/style";
+const URL_PUBLIC = URL."app/public";
