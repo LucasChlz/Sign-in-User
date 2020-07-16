@@ -1,4 +1,4 @@
-const AnimationCircles = () => {
+const animationCircles = () => {
     const ulCircles = document.querySelector("ul.circles");
 
     for (let i = 0; i < 11; i++) {
@@ -21,4 +21,4 @@ const AnimationCircles = () => {
     }
 }
 
-window.addEventListener('load', AnimationCircles);
+window.addEventListener('load', animationCircles);

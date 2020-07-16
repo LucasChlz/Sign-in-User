@@ -6,6 +6,7 @@
     <title>Sign In</title>
     <link rel="stylesheet" href="<?= URL_PUBLIC; ?>/style/main.css" />
     <link rel="stylesheet" href="<?= URL_PUBLIC; ?>/style/animation.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -19,9 +20,24 @@
         <path class="svg-2" fill="#f56740" fill-opacity="1" d="M0,192L288,96L576,288L864,320L1152,224L1440,96L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path>
     </svg>
 
-    <ul class="circles">
-    </ul>
-    
+    <ul class="circles"></ul>
+
+        <div class="form-box">
+            <h2>Sign In</h2>
+            <form action="" method="POST">
+                <label for="">Name</label>
+                <input type="text" name="name" placeholder="your name">
+
+                <label for="">E-mail</label>
+                <input type="text" name="email" placeholder="your email">
+
+                <label for="">Password</label>
+                <input type="password" name="password" placeholder="your password">
+
+                <button id="submit-btn" type="submit">Sign In</button>
+            </form>
+        </div><!--form-box-->
+
 </section><!--circles-->
 
 <script src="<?= URL_PUBLIC; ?>/js/main.js"></script>
