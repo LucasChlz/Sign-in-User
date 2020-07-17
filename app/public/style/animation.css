@@ -36,3 +36,13 @@
     }
 }
 
+@keyframes alert {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 250px;
+    }
+    
+}

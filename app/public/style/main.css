@@ -116,8 +116,45 @@ form button:hover {
     background: #ee4111;
 }
 
-@media screen and (max-width: 600px) {
+.msg {
+    width: 0;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    right: -252px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    animation: alert 0.5s forwards;
+}
+
+
+.error {
+    background: #e7412bf8;
+}
+
+.success {
+    background: #27f59ff8;
+    
+}
+
+@media screen and (max-width: 500px) {
     .form-box {
         width: 400px;
+    }
+
+    .msg {
+        left: 18%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .msg {
+        top: 100%;
+        left: 120px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
     }
 }
